@@ -92,17 +92,13 @@ Es por todo lo descrito anteriormente que veo necesaria e útil desarrollar esta
 
 ## REQUISITOS DE INFORMACIÓN
 
-**RI1 – USUARIOS**
+- **RI1 – USUARIOS**
 El sistema debe almacenar la siguiente información de los usuarios: email, contraseña, género (masculino, femenino, no binario) , nombre y apellidos, dni, teléfono. 
 Los usuarios serán los profesionales y familiares. 
-
-
-**RI2 – FAMILIAR**
+- **RI2 – FAMILIAR**
 El sistema debe almacenar la siguiente información del familiar: dirección. 
 Un familiar solo puede tener asociado un paciente pero puede tener asociado muchas incidencias.
-
-
-**RI3 – PROFESIONAL** 
+- **RI3 – PROFESIONAL** 
 El sistema debe almacenar la siguiente información de los profesionales: fecha de nacimiento, tipo (Enfermera o Auxiliar). 
 Un profesional puede tener asociado muchos pacientes, muchas citas, muchos servicios y muchas incidencias.
 
