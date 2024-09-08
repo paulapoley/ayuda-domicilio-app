@@ -101,37 +101,25 @@ Un familiar solo puede tener asociado un paciente pero puede tener asociado much
 - **RI3 – PROFESIONAL** 
 El sistema debe almacenar la siguiente información de los profesionales: fecha de nacimiento, tipo (Enfermera o Auxiliar). 
 Un profesional puede tener asociado muchos pacientes, muchas citas, muchos servicios y muchas incidencias.
-
-
-**RI4 – PACIENTE** 
+- **RI4 – PACIENTE** 
 El sistema debe almacenar la siguiente información de los pacientes: nombre y apellidos, fecha de nacimiento, teléfono, dirección, estado civil (soltero/a, casado/a, divorciado/a, viudo/a), dni, género (masculino, femenino, no binario) , peso en kilogramos, altura en centímetros, observaciones.   
 El paciente deberá tener un familiar. De la misma manera el paciente podrá tener asociadas una serie de tratamientos. 
 Los pacientes reciben múltiples servicios. De cada servicio recibido se almacenará: fecha de inicio, fecha de fin, coste total. El sistema computará la duración del servicio con la fecha de inicio y la fecha de fin. 
 Un paciente puede tener asociado muchas citas , muchas incidencias y muchos tratamientos.  En cambio el paciente solo puede tener un profesional. 
 En las observaciones se podrá ver si tiene alguna enfermedad, alergia o algo a tener en cuenta. 
-
-
-**RI5 – MEDICAMENTO**
+- **RI5 – MEDICAMENTO**
 El sistema debe almacenar la siguiente información de los medicamentos: nombre, dosis por toma. 
 Un medicamento puede estar asociado a muchos tratamientos.
-
-
-**RI6 – CITAS**  
+- **RI6 – CITAS**  
 El sistema debe almacenar la siguiente información de las citas de enfermería: fecha- hora inicio, fecha-hora fin, profesional, descripción de tareas a realizar, paciente, observaciones clínicas, id cita.
 Una cita solo puede tener asociado un profesional y un paciente. 
-
-
-**RI7 – SERVICIOS**  
+- **RI7 – SERVICIOS**  
 El sistema debe almacenar la siguiente información de los servicios :  nombre del servicio.
 Un servicio podrá tener asociado muchas citas. 
-
-
-**RI8 – INCIDENCIAS**  
+- **RI8 – INCIDENCIAS**  
 El sistema debe almacenar la siguiente información de las incidencias: fecha de incidencia, descripción de la incidencia, tipo de incidencia (mensaje , incidente),  nivel de gravedad (0,1,2,3,4,5,6,7,8,9,10).
 Una incidencia solo puede pertenecer a un familiar, a un profesional y a un paciente. 
-
-
-**RI9 – TRATAMIENTO**
+- **RI9 – TRATAMIENTO**
 El sistema debe almacenar la siguiente información de los tratamientos: fecha de prescripción, observación, nombre.  El tratamiento tiene líneas de tratamientos que constan de la siguiente información: fecha inicio, fecha fin, observaciones , duración del tratamiento ( en días, meses o años), nombre medicamento. 
 Un tratamiento puede contener muchos medicamentos y permenecer a un solo paciente.
 Cada línea de tratamiento representa un medicamento.  Tendrá derivadas, la fecha fin del tratamiento se calculará con la última fecha fin de las líneas de tratamiento, la duración de la línea de tratamiento se calculará con la fecha de inicio y la fecha de fin. 
@@ -140,115 +128,82 @@ Cada línea de tratamiento representa un medicamento.  Tendrá derivadas, la fec
 
 ## REQUISITOS FUNCIONALES
 
-
-
 ### HU1- Gestión de usuarios
 
-**RF-1.1. Registro de usuarios**
+- **RF-1.1. Registro de usuarios**
 En el momento que la persona se meta en la aplicación y está no sea usuario de ella aparecerá “Registrarse” y “Registrarse como profesional” al darle a la elegida rellenará un formulario para darse de alta en la aplicación.  
-
-**RF-1.2. Login de usuarios**
+- **RF-1.2. Login de usuarios**
 Una vez que la persona ya es usuario de la aplicación este hará iniciará sesión para poder acceder a la aplicación web. 
-
-**RF-1.3. Editar el perfil del usuario**
+- **RF-1.3. Editar el perfil del usuario**
 Cuando la persona esté dada de alta en la aplicación, es decir, tenga un usuario el sistema le tiene que permitir y le ofrecerá la opción de modificar la información del usuario. 
-
-
 
 
 ### HU2- Gestión de citas
 
-**RF-2.1. Crear citas.**
+- **RF-2.1. Crear citas.**
 El sistema permite a los usuarios añadir nuevas citas en la aplicación. 
-
-**RF-2.2. Listado de citas.**
+- **RF-2.2. Listado de citas.**
 El sistema muestra a los usuarios una lista de todas las citas ordenadas por fecha y hora ascendente. En la parte superior quedan las citas mas cercanas a la fecha actual. 
-
-**RF-2.3. Mostrar detalles de citas**
+- **RF-2.3. Mostrar detalles de citas**
 El sistema muestra a los usuarios la cita completa, es decir con todos los detalles. 
-
-**RF-2.4. Edición de citas**
+- **RF-2.4. Edición de citas**
 El sistema da la función de modificar las citas. 
-
-**RF-2.5. Eliminar citas**
+- **RF-2.5. Eliminar citas**
 El sistema permite a los usuarios cancelar la cita que ya tenían y por lo tanto eliminarla. 
-
-
 
 
 ### HU3- Gestión de servicios
 
-**RF-3.1. Crear servicio.** 
+- **RF-3.1. Crear servicio.** 
 El sistema les permite a los profesionales introducir nuevos servicios en la aplicación. 
-
-**RF-3.2. Listado de servicios.**
+- **RF-3.2. Listado de servicios.**
 El sistema permite a los profesionales y a los familiares mostrarle el listado con todos los servicios. 
-
-**RF-3.3. Mostrar detalles de servicios.**
+- **RF-3.3. Mostrar detalles de servicios.**
 El sistema permite a los profesionales mostrarle los detalles de los servicios.
-
-**RF-4.4. Editar datos de los servicios.**
+- **RF-4.4. Editar datos de los servicios.**
 El sistema permite a los profesionales modificar los servicios que sea necesario. 
-
-**RF-4.5. Eliminar servicios.**
+- **RF-4.5. Eliminar servicios.**
 El sistema permite a los profesionales eliminar los servicios.
-
-
 
 
 ### HU4- Gestión de incidencias
 
-**RF-4.1. Crear incidencia.**
+- **RF-4.1. Crear incidencia.**
 El sistema les permite a los usuarios crear nuevas incidencias en la aplicación. 
-
-**RF-4.2. Listado de incidencias.**
+- **RF-4.2. Listado de incidencias.**
 El sistema permite a los usuarios mostrarle el listado con todos las incidencias. 
-
-**RF-4.3. Mostrar detalles de incidencias.**
+- **RF-4.3. Mostrar detalles de incidencias.**
 El sistema permite a los usuarios mostrarle todos los detalles de las incidencias.
-
-**RF-5.4. Editar datos incidencias.**
+- **RF-5.4. Editar datos incidencias.**
 El sistema permite a los usuarios modificar las incidencias que sean necesarias. 
-
-**RF-5.5. Eliminar incidencias.**
+- **RF-5.5. Eliminar incidencias.**
 El sistema permite a los usuarios  eliminar incidencias.
 
 ## REGLAS DE NEGOCIO
 
-**RN-1. Fecha hora inicio**
+- **RN-1. Fecha hora inicio**
 La fecha hora de inicio de la cita tiene el formato dd/mm/aaaa y HH:mm. No puede seleccionarse el día de ayer. 
-
-**RN-2 Fecha hora fin**
+- **RN-2 Fecha hora fin**
 La fecha hora final de la cita tiene el formato dd/mm/aaaa y HH:mm. No puede seleccionarse antes que la fecha hora inicio de la cita. 
-
-**RN-3 Fecha**
+- **RN-3 Fecha**
 La fecha hora de la incidencia tiene el formato dd/mm/aaaa y HH:mm. 
-
-**RN-4 Descripción**
+- **RN-4 Descripción**
 La descripción tiene que ser rellenada, no puede dejarse en blanco sin contestar. 
-
-**RN-5 Observaciones**
+- **RN-5 Observaciones**
 Las observaciones tienen que ser rellenadas, no pueden dejarse en blanco sin contestar.
- 
-**RN- 6 Email** 
+- **RN- 6 Email** 
 El email de usuario que decida la persona no puede haber dos iguales, es decir, debe ser único en el sistema. No puede contener espacios ni dejarse en blanco. Puede incluir hasta 32 caracteres. Debe contener el símbolo @ y al final .com o .es o . algo.
-
-**RN- 7 Contraseña**
+- **RN- 7 Contraseña**
 La contraseña estará en el campo de contraseña y en la confirmación de esta coincidiendo las dos.Debe tener como mínimo 8 caracteres.
-
-**RN- 8  Nivel gravedad**
+- **RN- 8  Nivel gravedad**
 El nivel de gravedad de la incidencia oscilará entre 0 y 9. No se pueden poner otros números ni letras o símbolos que no sean esos. Tiene que ser rellenado. 
-
-**RN- 9  Tipo  Incidencia**
+- **RN- 9  Tipo  Incidencia**
 El tipo de incidencia tiene que ser seleccionado entre las opciones que da la aplicación. No se puede dejar sin seleccionar.
-
-**RN- 10  Género**
+- **RN- 10  Género**
 El género tiene que ser seleccionado entre las opciones que da la aplicación. No se puede dejar sin seleccionar.
-
-**RN- 11 Tipo profesional**
+- **RN- 11 Tipo profesional**
 El tipo profesional tiene que ser seleccionado entre las opciones que da la aplicación. No se puede dejar sin seleccionar.
-
-**RN- 12  Dirección**
+- **RN- 12  Dirección**
 La dirección tiene como máximo 255 caracteres.  
 
 
@@ -311,9 +266,3 @@ Si le damos a incidencia vemos que nos sale la incidencia ya creada. Tambien se 
 ![image](https://user-images.githubusercontent.com/99399775/171514234-1497454b-66ba-4222-b902-e0d96fab2b19.png)
 Si entramos con el perfil de Víctor y le damos a citas no tenemos ninguna porque Elena no le ha pedido citas ni él tampoco ha creado ninguna. 
 ![image](https://user-images.githubusercontent.com/99399775/171514322-2b7a790c-6e53-4397-aa4f-bb6b94c69fa0.png)
-
-
-### 4.2. Visual Studio Code (VS Code)
-Para el desarrollo de la aplicación se utilizó Visual Studio Code (VS Code), que proporciona una integración fluida con las herramientas de desarrollo de Laravel y Docker.
-
-
