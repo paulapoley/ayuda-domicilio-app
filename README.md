@@ -64,20 +64,20 @@ En el siguiente gráfico se justifica lo argumentado anteriormente ya que podemo
 **¿Quién es el auxiliar de ayuda a domicilio?** : Es el profesional que se encarga de los cuidados de una persona dependiente en su propio hogar para atender sus necesidades de la vida diaria. Su objetivo es mejorar y mantener la autonomía de la persona y su relación con el entorno. Atendiendo sus necesidades de salud físicas, psicológicas y sociales.  
 
 **¿Qué funciones tiene el auxiliar de ayuda a domicilio?:** Las funciones que lleva a cabo este profesional son muy diversas y se van a ver afectadas por las necesidades y posibilidades que tenga el paciente. Pero algunas de ellas podrían ser:
-        •	Colaborar en la planificación y coordinación de las tareas
-        •	Atención personal
-        •	Aseo personal y/o ayudarle a vestirse y a comer
-        •	Administrarle la medicación correspondiente, acompañamiento al médico y recogida de recetas
-        •	Ayuda para trasladarse dentro del hogar
-        •	Hacer la compra de los productos y alimentos necesarios para el día a día,
-        •	Cocinar 
-        •	Fomentar hábitos de higiene 
-        •	Necesidades domésticas y mantenimiento general de la vivienda
-        •	Actividades de la vida diaria
-        •	Ayudar a trasladarse fuera de la vivienda para realizar gestiones
-        •	Acompañarle al médico
-        •	Realizar actividades de ocio
-        •	Reforzar su autoestima y fomentar una vida saludable y activa
+- Colaborar en la planificación y coordinación de las tareas
+- Atención personal
+- Aseo personal y/o ayudarle a vestirse y a comer
+- Administrarle la medicación correspondiente, acompañamiento al médico y recogida de recetas
+- Ayuda para trasladarse dentro del hogar
+- Hacer la compra de los productos y alimentos necesarios para el día a día,
+- Cocinar 
+- Fomentar hábitos de higiene 
+- Necesidades domésticas y mantenimiento general de la vivienda
+- Actividades de la vida diaria
+- Ayudar a trasladarse fuera de la vivienda para realizar gestiones
+- Acompañarle al médico
+- Realizar actividades de ocio
+- Reforzar su autoestima y fomentar una vida saludable y activa
 
 **¿Qué pide el cliente y que expectativas hay? :**  FPL (iniciales del cliente) pese a valorar el ingreso de su familiar en una residencia decide buscar otra alternativa siendo esta la ayuda a domicilio. Pide una app web para que haya un mejor entendimiento (y cercanía familiar/tutor -paciente) entre su familiar (persona que necesita la ayuda), el profesional y él (familiar o tutor de dicha persona). Se recogerán y quedará constancia de todos los datos, incidencias, observaciones, dietas, ayuda y mas… gestionado todo de una manera intuitiva.  Esto es muy importante porque para una persona que viva sola, que tengan los familiares lejos, o que no se puedan hacer cargo 100% de ella , un auxiliar de ayuda a domicilio se convierte no solo en su cuidador sino en algo más, en una persona que le ayuda a sus tareas diarias, que le escucha y le presta atención, que le da fuerzas para que no decaigan sus capacidades y estas aumenten, le ayude a mitigar la soledad. Todo esto ocurriendo en la propia casa de la persona con necesidades dándole mayor tranquilidad y seguridad. 
 
