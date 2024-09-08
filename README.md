@@ -237,6 +237,7 @@ La dirección tiene como máximo 255 caracteres.
 - Si queremos crear un incidencia, le damos a esta y a crear incidencia. Rellenamos los datos.
 ![image](https://user-images.githubusercontent.com/99399775/171512232-e759d0ed-9f8a-4a09-acd2-a83ac86e43e8.png)
 ![image](https://user-images.githubusercontent.com/99399775/171512352-4d650730-8603-4450-ad3c-5abfb13806ad.png)
+
 - Si queremos editar la incidencia le damos al símbolo del lápiz y si queremos borrarla a la papelera. 
 ![image](https://user-images.githubusercontent.com/99399775/171512390-fd2b55b7-4d93-4f83-bff3-68d24a203307.png)
 
@@ -248,21 +249,25 @@ La dirección tiene como máximo 255 caracteres.
 - Vamos a registrar a un profesional, en este caso a Dolores que es enfermera y a Victor que es auxiliar. También vamos a iniciar sesión.
 ![image](https://user-images.githubusercontent.com/99399775/171510207-cf71933f-5105-4597-936a-5fb0f61dec14.png)
 ![image](https://user-images.githubusercontent.com/99399775/171513610-0928a082-010a-4c15-841e-73c1fd53b81e.png)
+
 - Pantalla principal que nos sale nada más registrarnos o iniciando sesión desde la que podremos ir a las distintas secciones ubicadas en la parte superior llamadas Citas, Incidencias y Servicios. Si le damos al símbolo de laravel siempre nos llevará a esta página principal.
 ![image](https://user-images.githubusercontent.com/99399775/171514444-e4cf4164-392f-4e97-88c4-6de883f1d274.png)
 
 - Al entrar en el perfil de Dolores podemos ver que si le damos a citas nos sale las dos citas que nos ha pedido Elena. Podemos hacer las mismas funciones ver (símbolo del ojo), editar(simbolo del lápiz) y eliminar (simbolo de la papelera). 
 ![image](https://user-images.githubusercontent.com/99399775/171513739-94ae5653-3392-42cc-a473-63686a5048ff.png)
-Tambien podemos darle a crear cita y deberemos rellenar la información que nos pide y le daremos a guardar. 
+
+- Tambien podemos darle a crear cita y deberemos rellenar la información que nos pide y le daremos a guardar. 
 ![image](https://user-images.githubusercontent.com/99399775/171513944-c1eb0bc7-e896-4899-8090-3f3486746b5f.png)
 
 - Para crear servicios le damos a servicios y a crear servicio.Ponemos el nombre y le damos a guardar. 
 ![image](https://user-images.githubusercontent.com/99399775/171514014-e7617e72-5d23-41e5-8ad9-2a452ca9d9a5.png)
+
 - He creado unos cuantos servicios más y como podemos ver podremos editarlos una vez creados o eliminarlos. 
 ![image](https://user-images.githubusercontent.com/99399775/171514090-1c5683c0-ad60-43fa-93df-9f1048d40721.png)
 
 - Si le damos a incidencia vemos que nos sale la incidencia ya creada. Tambien se podrá crear una incidencia para algun familiar rellenando la información mostrada a continuación. 
 ![image](https://user-images.githubusercontent.com/99399775/171514154-bfbd8a48-4ebd-4179-86a4-d2c91762e291.png)
 ![image](https://user-images.githubusercontent.com/99399775/171514234-1497454b-66ba-4222-b902-e0d96fab2b19.png)
+
 - Si entramos con el perfil de Víctor y le damos a citas no tenemos ninguna porque Elena no le ha pedido citas ni él tampoco ha creado ninguna. 
 ![image](https://user-images.githubusercontent.com/99399775/171514322-2b7a790c-6e53-4397-aa4f-bb6b94c69fa0.png)
