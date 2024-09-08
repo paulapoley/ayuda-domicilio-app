@@ -41,6 +41,10 @@ Además, el repositorio incluye otros archivos relevantes:
 ### 4.1. Laravel Sail
 El entorno de desarrollo elegido para la implementación del sistema es Laravel Sail, que permite una configuración fácil y rápida del entorno basado en Docker.
 
+### 4.2. Visual Studio Code (VS Code)
+Para el desarrollo de la aplicación se utilizó Visual Studio Code (VS Code), que proporciona una integración fluida con las herramientas de desarrollo de Laravel y Docker.
+
+-----------------------------------------------------------------------------------------------------------------------
 ![d](https://user-images.githubusercontent.com/99399775/155562465-76c5841f-da7c-43f3-b0e2-fa70b086382a.JPG)
 
 
