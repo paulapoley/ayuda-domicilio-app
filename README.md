@@ -41,8 +41,6 @@ Además, el repositorio incluye otros archivos relevantes:
 ### 4.1. Laravel Sail
 El entorno de desarrollo elegido para la implementación del sistema es Laravel Sail, que permite una configuración fácil y rápida del entorno basado en Docker.
 
-# Plantilla de proyecto CGIS Paula Poley Ceballos
-
 ![d](https://user-images.githubusercontent.com/99399775/155562465-76c5841f-da7c-43f3-b0e2-fa70b086382a.JPG)
 
 
@@ -86,7 +84,6 @@ Según esta tesis doctoral: “la atención residencial incrementa el riesgo de 
 Además el 84% de los mayores dependientes precisa atención en domicilio para tener una higiene correcta y un 80% de personas necesita ayuda domiciliaria para vestirse y calzarse (datos facilitados por la Sociedad Española de Geriatría y Gerontología y Lindor).
 
 Es por todo lo descrito anteriormente que veo necesaria e útil desarrollar esta aplicación web que iré haciendo progresivamente. 
-
 
 
 ## REQUISITOS DE INFORMACIÓN
